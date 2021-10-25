@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+.contenedor-principal{
+    display: flex;
+}
+.contenedor-secundario1{
+    width: 25%;
+    background-color: rgb(148, 148, 255);
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: space-around;
+    margin-left: 5%;
+    padding:3%;
+}
+.contenedor-secundario2{
+    display: flex;
+    align-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    padding:3%;
+}
+#cabecera{
+    height: 200px;
+    background-color: rgb(92, 92, 250);
+    font-size: 40px;
+    margin: 0px;
+    padding-top: 0px;
+    font-family: 'Trebuchet MS';
+    font-style: italic;
+    text-align: center;
+}
+.datos{
+    text-align: left;
+    width: 90%;
+}
+.foto{
+    display:block;
+    margin:auto;
+    border: black;
+    border: 2px solid black;
+}
